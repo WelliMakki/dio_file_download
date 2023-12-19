@@ -66,7 +66,7 @@ class _MyHomePageState extends State<MyHomePage> {
     Dio dio = Dio();
     Directory directory = await getApplicationDocumentsDirectory();
     String file =
-        'http://www.tourismneomksa.com/attachment_file/TransferOrder/vehicle_sub_category/hydraulic_surface.png';
+        'Your file URL';
 
     int? filestart = file.indexOf('vehicle_sub_category/');
     String fileSubString = file.replaceRange(0, filestart + 1, '');
