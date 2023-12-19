@@ -68,7 +68,7 @@ class _MyHomePageState extends State<MyHomePage> {
     String file =
         'Your file URL';
 
-    int? filestart = file.indexOf('vehicle_sub_category/');
+    //rename file
     String fileSubString = file.replaceRange(0, filestart + 1, '');
     try {
       var response = await dio.download(
